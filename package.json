@@ -1,0 +1,28 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.11.8",
+        "@tailwindcss/forms": "^0.5.2",
+        "alpinejs": "^3.4.2",
+        "axios": "^1.7.4",
+        "bootstrap": "^5.3.6",
+        "concurrently": "^9.0.1",
+        "laravel-mix": "^6.0.49",
+        "laravel-vite-plugin": "^1.2.0",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.89.1",
+        "sass-loader": "^12.1.0"
+    },
+    "dependencies": {
+        "angular": "^1.8.3",
+        "jquery": "^3.7.1",
+        "owl.carousel": "^2.3.4"
+    }
+}
